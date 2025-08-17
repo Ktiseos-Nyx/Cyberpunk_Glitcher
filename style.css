@@ -1,0 +1,735 @@
+/* style.css */
+
+/* FONT FACES START */
+@font-face { font-family: 'Audiowide Regular'; src: url('Fonts/Audiowide-Regular.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Black'; src: url('Fonts/BitcountPropDouble-Black.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Bold'; src: url('Fonts/BitcountPropDouble-Bold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble ExtraBold'; src: url('Fonts/BitcountPropDouble-ExtraBold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble ExtraLight'; src: url('Fonts/BitcountPropDouble-ExtraLight.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Light'; src: url('Fonts/BitcountPropDouble-Light.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Medium'; src: url('Fonts/BitcountPropDouble-Medium.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Regular'; src: url('Fonts/BitcountPropDouble-Regular.ttf'); }
+@font-face { font-family: 'BitcountPropDouble SemiBold'; src: url('Fonts/BitcountPropDouble-SemiBold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Thin'; src: url('Fonts/BitcountPropDouble-Thin.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Variable'; src: url('Fonts/BitcountPropDouble-VariableFont_CRSV,ELSH,ELXP,slnt,wght.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive Black'; src: url('Fonts/BitcountPropDouble_Cursive-Black.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive Bold'; src: url('Fonts/BitcountPropDouble_Cursive-Bold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive ExtraBold'; src: url('Fonts/BitcountPropDouble_Cursive-ExtraBold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive ExtraLight'; src: url('Fonts/BitcountPropDouble_Cursive-ExtraLight.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive Light'; src: url('Fonts/BitcountPropDouble_Cursive-Light.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive Medium'; src: url('Fonts/BitcountPropDouble_Cursive-Medium.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive Regular'; src: url('Fonts/BitcountPropDouble_Cursive-Regular.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive SemiBold'; src: url('Fonts/BitcountPropDouble_Cursive-SemiBold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Cursive Thin'; src: url('Fonts/BitcountPropDouble_Cursive-Thin.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman Black'; src: url('Fonts/BitcountPropDouble_Roman-Black.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman Bold'; src: url('Fonts/BitcountPropDouble_Roman-Bold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman ExtraBold'; src: url('Fonts/BitcountPropDouble_Roman-ExtraBold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman ExtraLight'; src: url('Fonts/BitcountPropDouble_Roman-ExtraLight.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman Light'; src: url('Fonts/BitcountPropDouble_Roman-Light.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman Medium'; src: url('Fonts/BitcountPropDouble_Roman-Medium.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman Regular'; src: url('Fonts/BitcountPropDouble_Roman-Regular.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman SemiBold'; src: url('Fonts/BitcountPropDouble_Roman-SemiBold.ttf'); }
+@font-face { font-family: 'BitcountPropDouble Roman Thin'; src: url('Fonts/BitcountPropDouble_Roman-Thin.ttf'); }
+@font-face { font-family: 'CascadiaCode Bold'; src: url('Fonts/CascadiaCode-Bold.ttf'); }
+@font-face { font-family: 'CascadiaCode BoldItalic'; src: url('Fonts/CascadiaCode-BoldItalic.ttf'); }
+@font-face { font-family: 'CascadiaCode ExtraLight'; src: url('Fonts/CascadiaCode-ExtraLight.ttf'); }
+@font-face { font-family: 'CascadiaCode ExtraLightItalic'; src: url('Fonts/CascadiaCode-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'CascadiaCode Italic Variable'; src: url('Fonts/CascadiaCode-Italic-VariableFont_wght.ttf'); }
+@font-face { font-family: 'CascadiaCode Italic'; src: url('Fonts/CascadiaCode-Italic.ttf'); }
+@font-face { font-family: 'CascadiaCode Light'; src: url('Fonts/CascadiaCode-Light.ttf'); }
+@font-face { font-family: 'CascadiaCode LightItalic'; src: url('Fonts/CascadiaCode-LightItalic.ttf'); }
+@font-face { font-family: 'CascadiaCode Medium'; src: url('Fonts/CascadiaCode-Medium.ttf'); }
+@font-face { font-family: 'CascadiaCode MediumItalic'; src: url('Fonts/CascadiaCode-MediumItalic.ttf'); }
+@font-face { font-family: 'CascadiaCode Regular'; src: url('Fonts/CascadiaCode-Regular.ttf'); }
+@font-face { font-family: 'CascadiaCode SemiBold'; src: url('Fonts/CascadiaCode-SemiBold.ttf'); }
+@font-face { font-family: 'CascadiaCode SemiBoldItalic'; src: url('Fonts/CascadiaCode-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'CascadiaCode Variable'; src: url('Fonts/CascadiaCode-VariableFont_wght.ttf'); }
+@font-face { font-family: 'CascadiaMono Bold'; src: url('Fonts/CascadiaMono-Bold.ttf'); }
+@font-face { font-family: 'CascadiaMono BoldItalic'; src: url('Fonts/CascadiaMono-BoldItalic.ttf'); }
+@font-face { font-family: 'CascadiaMono ExtraLight'; src: url('Fonts/CascadiaMono-ExtraLight.ttf'); }
+@font-face { font-family: 'CascadiaMono ExtraLightItalic'; src: url('Fonts/CascadiaMono-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'CascadiaMono Italic Variable'; src: url('Fonts/CascadiaMono-Italic-VariableFont_wght.ttf'); }
+@font-face { font-family: 'CascadiaMono Italic'; src: url('Fonts/CascadiaMono-Italic.ttf'); }
+@font-face { font-family: 'CascadiaMono Light'; src: url('Fonts/CascadiaMono-Light.ttf'); }
+@font-face { font-family: 'CascadiaMono LightItalic'; src: url('Fonts/CascadiaMono-LightItalic.ttf'); }
+@font-face { font-family: 'CascadiaMono Medium'; src: url('Fonts/CascadiaMono-Medium.ttf'); }
+@font-face { font-family: 'CascadiaMono MediumItalic'; src: url('Fonts/CascadiaMono-MediumItalic.ttf'); }
+@font-face { font-family: 'CascadiaMono Regular'; src: url('Fonts/CascadiaMono-Regular.ttf'); }
+@font-face { font-family: 'CascadiaMono SemiBold'; src: url('Fonts/CascadiaMono-SemiBold.ttf'); }
+@font-face { font-family: 'CascadiaMono SemiBoldItalic'; src: url('Fonts/CascadiaMono-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'CascadiaMono Variable'; src: url('Fonts/CascadiaMono-VariableFont_wght.ttf'); }
+@font-face { font-family: 'DotGothic16 Regular'; src: url('Fonts/DotGothic16-Regular.ttf'); }
+@font-face { font-family: 'GemunuLibre Bold'; src: url('Fonts/GemunuLibre-Bold.ttf'); }
+@font-face { font-family: 'GemunuLibre ExtraBold'; src: url('Fonts/GemunuLibre-ExtraBold.ttf'); }
+@font-face { font-family: 'GemunuLibre ExtraLight'; src: url('Fonts/GemunuLibre-ExtraLight.ttf'); }
+@font-face { font-family: 'GemunuLibre Light'; src: url('Fonts/GemunuLibre-Light.ttf'); }
+@font-face { font-family: 'GemunuLibre Medium'; src: url('Fonts/GemunuLibre-Medium.ttf'); }
+@font-face { font-family: 'GemunuLibre Regular'; src: url('Fonts/GemunuLibre-Regular.ttf'); }
+@font-face { font-family: 'GemunuLibre SemiBold'; src: url('Fonts/GemunuLibre-SemiBold.ttf'); }
+@font-face { font-family: 'GemunuLibre Variable'; src: url('Fonts/GemunuLibre-VariableFont_wght.ttf'); }
+@font-face { font-family: 'Gugi Regular'; src: url('Fonts/Gugi-Regular.ttf'); }
+@font-face { font-family: 'HachiMaruPop Regular'; src: url('Fonts/HachiMaruPop-Regular.ttf'); }
+@font-face { font-family: 'Handjet Black'; src: url('Fonts/Handjet-Black.ttf'); }
+@font-face { font-family: 'Handjet Bold'; src: url('Fonts/Handjet-Bold.ttf'); }
+@font-face { font-family: 'Handjet ExtraBold'; src: url('Fonts/Handjet-ExtraBold.ttf'); }
+@font-face { font-family: 'Handjet ExtraLight'; src: url('Fonts/Handjet-ExtraLight.ttf'); }
+@font-face { font-family: 'Handjet Light'; src: url('Fonts/Handjet-Light.ttf'); }
+@font-face { font-family: 'Handjet Medium'; src: url('Fonts/Handjet-Medium.ttf'); }
+@font-face { font-family: 'Handjet Regular'; src: url('Fonts/Handjet-Regular.ttf'); }
+@font-face { font-family: 'Handjet SemiBold'; src: url('Fonts/Handjet-SemiBold.ttf'); }
+@font-face { font-family: 'Handjet Thin'; src: url('Fonts/Handjet-Thin.ttf'); }
+@font-face { font-family: 'Handjet Variable'; src: url('Fonts/Handjet-VariableFont_ELGR,ELSH,wght.ttf'); }
+@font-face { font-family: 'NotoEmoji Bold'; src: url('Fonts/NotoEmoji-Bold.ttf'); }
+@font-face { font-family: 'NotoEmoji Light'; src: url('Fonts/NotoEmoji-Light.ttf'); }
+@font-face { font-family: 'NotoEmoji Medium'; src: url('Fonts/NotoEmoji-Medium.ttf'); }
+@font-face { font-family: 'NotoEmoji Regular'; src: url('Fonts/NotoEmoji-Regular.ttf'); }
+@font-face { font-family: 'NotoEmoji SemiBold'; src: url('Fonts/NotoEmoji-SemiBold.ttf'); }
+@font-face { font-family: 'NotoEmoji Variable'; src: url('Fonts/NotoEmoji-VariableFont_wght.ttf'); }
+@font-face { font-family: 'NotoMusic Regular'; src: url('Fonts/NotoMusic-Regular.ttf'); }
+@font-face { font-family: 'NotoSans Black'; src: url('Fonts/NotoSans-Black.ttf'); }
+@font-face { font-family: 'NotoSans BlackItalic'; src: url('Fonts/NotoSans-BlackItalic.ttf'); }
+@font-face { font-family: 'NotoSans Bold'; src: url('Fonts/NotoSans-Bold.ttf'); }
+@font-face { font-family: 'NotoSans BoldItalic'; src: url('Fonts/NotoSans-BoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraBold'; src: url('Fonts/NotoSans-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSans ExtraBoldItalic'; src: url('Fonts/NotoSans-ExtraBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraLight'; src: url('Fonts/NotoSans-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSans ExtraLightItalic'; src: url('Fonts/NotoSans-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'NotoSans Italic Variable'; src: url('Fonts/NotoSans-Italic-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSans Italic'; src: url('Fonts/NotoSans-Italic.ttf'); }
+@font-face { font-family: 'NotoSans Light'; src: url('Fonts/NotoSans-Light.ttf'); }
+@font-face { font-family: 'NotoSans LightItalic'; src: url('Fonts/NotoSans-LightItalic.ttf'); }
+@font-face { font-family: 'NotoSans Medium'; src: url('Fonts/NotoSans-Medium.ttf'); }
+@font-face { font-family: 'NotoSans MediumItalic'; src: url('Fonts/NotoSans-MediumItalic.ttf'); }
+@font-face { font-family: 'NotoSans Regular'; src: url('Fonts/NotoSans-Regular.ttf'); }
+@font-face { font-family: 'NotoSans SemiBold'; src: url('Fonts/NotoSans-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSans SemiBoldItalic'; src: url('Fonts/NotoSans-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans Thin'; src: url('Fonts/NotoSans-Thin.ttf'); }
+@font-face { font-family: 'NotoSans ThinItalic'; src: url('Fonts/NotoSans-ThinItalic.ttf'); }
+@font-face { font-family: 'NotoSans Variable'; src: url('Fonts/NotoSans-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansAnatolianHieroglyphs Regular'; src: url('Fonts/NotoSansAnatolianHieroglyphs-Regular.ttf'); }
+@font-face { font-family: 'NotoSansBuhid Regular'; src: url('Fonts/NotoSansBuhid-Regular.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal Black'; src: url('Fonts/NotoSansCanadianAboriginal-Black.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal Bold'; src: url('Fonts/NotoSansCanadianAboriginal-Bold.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal ExtraBold'; src: url('Fonts/NotoSansCanadianAboriginal-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal ExtraLight'; src: url('Fonts/NotoSansCanadianAboriginal-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal Light'; src: url('Fonts/NotoSansCanadianAboriginal-Light.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal Medium'; src: url('Fonts/NotoSansCanadianAboriginal-Medium.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal Regular'; src: url('Fonts/NotoSansCanadianAboriginal-Regular.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal SemiBold'; src: url('Fonts/NotoSansCanadianAboriginal-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal Thin'; src: url('Fonts/NotoSansCanadianAboriginal-Thin.ttf'); }
+@font-face { font-family: 'NotoSansCanadianAboriginal Variable'; src: url('Fonts/NotoSansCanadianAboriginal-VariableFont_wght.ttf'); }
+@font-face { font-family: 'NotoSansCarian Regular'; src: url('Fonts/NotoSansCarian-Regular.ttf'); }
+@font-face { font-family: 'NotoSansCoptic Regular'; src: url('Fonts/NotoSansCoptic-Regular.ttf'); }
+@font-face { font-family: 'NotoSansCyproMinoan Regular'; src: url('Fonts/NotoSansCyproMinoan-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Black'; src: url('Fonts/NotoSansDevanagari-Black.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Bold'; src: url('Fonts/NotoSansDevanagari-Bold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraBold'; src: url('Fonts/NotoSansDevanagari-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraLight'; src: url('Fonts/NotoSansDevanagari-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Light'; src: url('Fonts/NotoSansDevanagari-Light.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Medium'; src: url('Fonts/NotoSansDevanagari-Medium.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Regular'; src: url('Fonts/NotoSansDevanagari-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiBold'; src: url('Fonts/NotoSansDevanagari-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Thin'; src: url('Fonts/NotoSansDevanagari-Thin.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Variable'; src: url('Fonts/NotoSansDevanagari-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed Black'; src: url('Fonts/NotoSansDevanagari_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed Bold'; src: url('Fonts/NotoSansDevanagari_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed ExtraBold'; src: url('Fonts/NotoSansDevanagari_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed ExtraLight'; src: url('Fonts/NotoSansDevanagari_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed Light'; src: url('Fonts/NotoSansDevanagari_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed Medium'; src: url('Fonts/NotoSansDevanagari_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed Regular'; src: url('Fonts/NotoSansDevanagari_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed SemiBold'; src: url('Fonts/NotoSansDevanagari_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari Condensed Thin'; src: url('Fonts/NotoSansDevanagari_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed Black'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed Bold'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed ExtraBold'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed ExtraLight'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed Light'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed Medium'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed Regular'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed SemiBold'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari ExtraCondensed Thin'; src: url('Fonts/NotoSansDevanagari_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed Black'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed Bold'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed ExtraBold'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed ExtraLight'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed Light'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed Medium'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed Regular'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed SemiBold'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansDevanagari SemiCondensed Thin'; src: url('Fonts/NotoSansDevanagari_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Black'; src: url('Fonts/NotoSansDisplay-Black.ttf'); }
+@font-face { font-family: 'NotoSansDisplay BlackItalic'; src: url('Fonts/NotoSansDisplay-BlackItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Bold'; src: url('Fonts/NotoSansDisplay-Bold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay BoldItalic'; src: url('Fonts/NotoSansDisplay-BoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraBold'; src: url('Fonts/NotoSansDisplay-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraBoldItalic'; src: url('Fonts/NotoSansDisplay-ExtraBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraLight'; src: url('Fonts/NotoSansDisplay-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraLightItalic'; src: url('Fonts/NotoSansDisplay-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Italic Variable'; src: url('Fonts/NotoSansDisplay-Italic-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Italic'; src: url('Fonts/NotoSansDisplay-Italic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Light'; src: url('Fonts/NotoSansDisplay-Light.ttf'); }
+@font-face { font-family: 'NotoSansDisplay LightItalic'; src: url('Fonts/NotoSansDisplay-LightItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Medium'; src: url('Fonts/NotoSansDisplay-Medium.ttf'); }
+@font-face { font-family: 'NotoSansDisplay MediumItalic'; src: url('Fonts/NotoSansDisplay-MediumItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Regular'; src: url('Fonts/NotoSansDisplay-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiBold'; src: url('Fonts/NotoSansDisplay-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiBoldItalic'; src: url('Fonts/NotoSansDisplay-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Thin'; src: url('Fonts/NotoSansDisplay-Thin.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ThinItalic'; src: url('Fonts/NotoSansDisplay-ThinItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Variable'; src: url('Fonts/NotoSansDisplay-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed Black'; src: url('Fonts/NotoSansDisplay_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed BlackItalic'; src: url('Fonts/NotoSansDisplay_Condensed-BlackItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed Bold'; src: url('Fonts/NotoSansDisplay_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed BoldItalic'; src: url('Fonts/NotoSansDisplay_Condensed-BoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed ExtraBold'; src: url('Fonts/NotoSansDisplay_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed ExtraBoldItalic'; src: url('Fonts/NotoSansDisplay_Condensed-ExtraBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed ExtraLight'; src: url('Fonts/NotoSansDisplay_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed ExtraLightItalic'; src: url('Fonts/NotoSansDisplay_Condensed-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed Italic'; src: url('Fonts/NotoSansDisplay_Condensed-Italic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed Light'; src: url('Fonts/NotoSansDisplay_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed LightItalic'; src: url('Fonts/NotoSansDisplay_Condensed-LightItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed Medium'; src: url('Fonts/NotoSansDisplay_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed MediumItalic'; src: url('Fonts/NotoSansDisplay_Condensed-MediumItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed Regular'; src: url('Fonts/NotoSansDisplay_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed SemiBold'; src: url('Fonts/NotoSansDisplay_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed SemiBoldItalic'; src: url('Fonts/NotoSansDisplay_Condensed-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed Thin'; src: url('Fonts/NotoSansDisplay_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansDisplay Condensed ThinItalic'; src: url('Fonts/NotoSansDisplay_Condensed-ThinItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed Black'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed BlackItalic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-BlackItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed Bold'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed BoldItalic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-BoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed ExtraBold'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed ExtraBoldItalic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-ExtraBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed ExtraLight'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed ExtraLightItalic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed Italic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-Italic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed Light'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed LightItalic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-LightItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed Medium'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed MediumItalic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-MediumItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed Regular'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed SemiBold'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed SemiBoldItalic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed Thin'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansDisplay ExtraCondensed ThinItalic'; src: url('Fonts/NotoSansDisplay_ExtraCondensed-ThinItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed Black'; src: url('Fonts/NotoSansDisplay_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed BlackItalic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-BlackItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed Bold'; src: url('Fonts/NotoSansDisplay_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed BoldItalic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-BoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed ExtraBold'; src: url('Fonts/NotoSansDisplay_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed ExtraBoldItalic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-ExtraBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed ExtraLight'; src: url('Fonts/NotoSansDisplay_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed ExtraLightItalic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed Italic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-Italic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed Light'; src: url('Fonts/NotoSansDisplay_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed LightItalic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-LightItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed Medium'; src: url('Fonts/NotoSansDisplay_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed MediumItalic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-MediumItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed Regular'; src: url('Fonts/NotoSansDisplay_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed SemiBold'; src: url('Fonts/NotoSansDisplay_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed SemiBoldItalic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed Thin'; src: url('Fonts/NotoSansDisplay_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansDisplay SemiCondensed ThinItalic'; src: url('Fonts/NotoSansDisplay_SemiCondensed-ThinItalic.ttf'); }
+@font-face { font-family: 'NotoSansEgyptianHieroglyphs Regular'; src: url('Fonts/NotoSansEgyptianHieroglyphs-Regular.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Black'; src: url('Fonts/NotoSansEthiopic-Black.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Bold'; src: url('Fonts/NotoSansEthiopic-Bold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraBold'; src: url('Fonts/NotoSansEthiopic-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraLight'; src: url('Fonts/NotoSansEthiopic-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Light'; src: url('Fonts/NotoSansEthiopic-Light.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Medium'; src: url('Fonts/NotoSansEthiopic-Medium.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Regular'; src: url('Fonts/NotoSansEthiopic-Regular.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiBold'; src: url('Fonts/NotoSansEthiopic-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Thin'; src: url('Fonts/NotoSansEthiopic-Thin.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Variable'; src: url('Fonts/NotoSansEthiopic-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed Black'; src: url('Fonts/NotoSansEthiopic_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed Bold'; src: url('Fonts/NotoSansEthiopic_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed ExtraBold'; src: url('Fonts/NotoSansEthiopic_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed ExtraLight'; src: url('Fonts/NotoSansEthiopic_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed Light'; src: url('Fonts/NotoSansEthiopic_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed Medium'; src: url('Fonts/NotoSansEthiopic_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed Regular'; src: url('Fonts/NotoSansEthiopic_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed SemiBold'; src: url('Fonts/NotoSansEthiopic_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic Condensed Thin'; src: url('Fonts/NotoSansEthiopic_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed Black'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed Bold'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed ExtraBold'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed ExtraLight'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed Light'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed Medium'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed Regular'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed SemiBold'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic ExtraCondensed Thin'; src: url('Fonts/NotoSansEthiopic_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed Black'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed Bold'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed ExtraBold'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed ExtraLight'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed Light'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed Medium'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed Regular'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed SemiBold'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansEthiopic SemiCondensed Thin'; src: url('Fonts/NotoSansEthiopic_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansGlagolitic Regular'; src: url('Fonts/NotoSansGlagolitic-Regular.ttf'); }
+@font-face { font-family: 'NotoSansGothic Regular'; src: url('Fonts/NotoSansGothic-Regular.ttf'); }
+@font-face { font-family: 'NotoSansHK Black'; src: url('Fonts/NotoSansHK-Black.ttf'); }
+@font-face { font-family: 'NotoSansHK Bold'; src: url('Fonts/NotoSansHK-Bold.ttf'); }
+@font-face { font-family: 'NotoSansHK ExtraBold'; src: url('Fonts/NotoSansHK-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansHK ExtraLight'; src: url('Fonts/NotoSansHK-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansHK Light'; src: url('Fonts/NotoSansHK-Light.ttf'); }
+@font-face { font-family: 'NotoSansHK Medium'; src: url('Fonts/NotoSansHK-Medium.ttf'); }
+@font-face { font-family: 'NotoSansHK Regular'; src: url('Fonts/NotoSansHK-Regular.ttf'); }
+@font-face { font-family: 'NotoSansHK SemiBold'; src: url('Fonts/NotoSansHK-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansHK Thin'; src: url('Fonts/NotoSansHK-Thin.ttf'); }
+@font-face { font-family: 'NotoSansHanunoo Regular'; src: url('Fonts/NotoSansHanunoo-Regular.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Black'; src: url('Fonts/NotoSansHebrew-Black.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Bold'; src: url('Fonts/NotoSansHebrew-Bold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraBold'; src: url('Fonts/NotoSansHebrew-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraLight'; src: url('Fonts/NotoSansHebrew-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Light'; src: url('Fonts/NotoSansHebrew-Light.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Medium'; src: url('Fonts/NotoSansHebrew-Medium.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Regular'; src: url('Fonts/NotoSansHebrew-Regular.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiBold'; src: url('Fonts/NotoSansHebrew-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Thin'; src: url('Fonts/NotoSansHebrew-Thin.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Variable'; src: url('Fonts/NotoSansHebrew-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed Black'; src: url('Fonts/NotoSansHebrew_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed Bold'; src: url('Fonts/NotoSansHebrew_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed ExtraBold'; src: url('Fonts/NotoSansHebrew_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed ExtraLight'; src: url('Fonts/NotoSansHebrew_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed Light'; src: url('Fonts/NotoSansHebrew_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed Medium'; src: url('Fonts/NotoSansHebrew_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed Regular'; src: url('Fonts/NotoSansHebrew_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed SemiBold'; src: url('Fonts/NotoSansHebrew_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew Condensed Thin'; src: url('Fonts/NotoSansHebrew_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed Black'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed Bold'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed ExtraBold'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed ExtraLight'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed Light'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed Medium'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed Regular'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed SemiBold'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew ExtraCondensed Thin'; src: url('Fonts/NotoSansHebrew_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed Black'; src: url('Fonts/NotoSansHebrew_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed Bold'; src: url('Fonts/NotoSansHebrew_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed ExtraBold'; src: url('Fonts/NotoSansHebrew_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed ExtraLight'; src: url('Fonts/NotoSansHebrew_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed Light'; src: url('Fonts/NotoSansHebrew_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed Medium'; src: url('Fonts/NotoSansHebrew_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed Regular'; src: url('Fonts/NotoSansHebrew_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed SemiBold'; src: url('Fonts/NotoSansHebrew_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansHebrew SemiCondensed Thin'; src: url('Fonts/NotoSansHebrew_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansJP Black'; src: url('Fonts/NotoSansJP-Black.ttf'); }
+@font-face { font-family: 'NotoSansJP Bold'; src: url('Fonts/NotoSansJP-Bold.ttf'); }
+@font-face { font-family: 'NotoSansJP ExtraBold'; src: url('Fonts/NotoSansJP-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansJP ExtraLight'; src: url('Fonts/NotoSansJP-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansJP Light'; src: url('Fonts/NotoSansJP-Light.ttf'); }
+@font-face { font-family: 'NotoSansJP Medium'; src: url('Fonts/NotoSansJP-Medium.ttf'); }
+@font-face { font-family: 'NotoSansJP Regular'; src: url('Fonts/NotoSansJP-Regular.ttf'); }
+@font-face { font-family: 'NotoSansJP SemiBold'; src: url('Fonts/NotoSansJP-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansJP Thin'; src: url('Fonts/NotoSansJP-Thin.ttf'); }
+@font-face { font-family: 'NotoSansJP Variable'; src: url('Fonts/NotoSansJP-VariableFont_wght.ttf'); }
+@font-face { font-family: 'NotoSansKR Black'; src: url('Fonts/NotoSansKR-Black.ttf'); }
+@font-face { font-family: 'NotoSansKR Bold'; src: url('Fonts/NotoSansKR-Bold.ttf'); }
+@font-face { font-family: 'NotoSansKR ExtraBold'; src: url('Fonts/NotoSansKR-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansKR ExtraLight'; src: url('Fonts/NotoSansKR-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansKR Light'; src: url('Fonts/NotoSansKR-Light.ttf'); }
+@font-face { font-family: 'NotoSansKR Medium'; src: url('Fonts/NotoSansKR-Medium.ttf'); }
+@font-face { font-family: 'NotoSansKR Regular'; src: url('Fonts/NotoSansKR-Regular.ttf'); }
+@font-face { font-family: 'NotoSansKR SemiBold'; src: url('Fonts/NotoSansKR-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansKR Thin'; src: url('Fonts/NotoSansKR-Thin.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Black'; src: url('Fonts/NotoSansKhmer-Black.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Bold'; src: url('Fonts/NotoSansKhmer-Bold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraBold'; src: url('Fonts/NotoSansKhmer-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraLight'; src: url('Fonts/NotoSansKhmer-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Light'; src: url('Fonts/NotoSansKhmer-Light.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Medium'; src: url('Fonts/NotoSansKhmer-Medium.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Regular'; src: url('Fonts/NotoSansKhmer-Regular.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiBold'; src: url('Fonts/NotoSansKhmer-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Thin'; src: url('Fonts/NotoSansKhmer-Thin.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Variable'; src: url('Fonts/NotoSansKhmer-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed Black'; src: url('Fonts/NotoSansKhmer_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed Bold'; src: url('Fonts/NotoSansKhmer_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed ExtraBold'; src: url('Fonts/NotoSansKhmer_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed ExtraLight'; src: url('Fonts/NotoSansKhmer_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed Light'; src: url('Fonts/NotoSansKhmer_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed Medium'; src: url('Fonts/NotoSansKhmer_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed Regular'; src: url('Fonts/NotoSansKhmer_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed SemiBold'; src: url('Fonts/NotoSansKhmer_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer Condensed Thin'; src: url('Fonts/NotoSansKhmer_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed Black'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed Bold'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed ExtraBold'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed ExtraLight'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed Light'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed Medium'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed Regular'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed SemiBold'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer ExtraCondensed Thin'; src: url('Fonts/NotoSansKhmer_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed Black'; src: url('Fonts/NotoSansKhmer_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed Bold'; src: url('Fonts/NotoSansKhmer_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed ExtraBold'; src: url('Fonts/NotoSansKhmer_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed ExtraLight'; src: url('Fonts/NotoSansKhmer_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed Light'; src: url('Fonts/NotoSansKhmer_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed Medium'; src: url('Fonts/NotoSansKhmer_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed Regular'; src: url('Fonts/NotoSansKhmer_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed SemiBold'; src: url('Fonts/NotoSansKhmer_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansKhmer SemiCondensed Thin'; src: url('Fonts/NotoSansKhmer_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansLinearA Regular'; src: url('Fonts/NotoSansLinearA-Regular.ttf'); }
+@font-face { font-family: 'NotoSansLisu Bold'; src: url('Fonts/NotoSansLisu-Bold.ttf'); }
+@font-face { font-family: 'NotoSansLisu Medium'; src: url('Fonts/NotoSansLisu-Medium.ttf'); }
+@font-face { font-family: 'NotoSansLisu Regular'; src: url('Fonts/NotoSansLisu-Regular.ttf'); }
+@font-face { font-family: 'NotoSansLisu SemiBold'; src: url('Fonts/NotoSansLisu-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansLisu Variable'; src: url('Fonts/NotoSansLisu-VariableFont_wght.ttf'); }
+@font-face { font-family: 'NotoSansMath Regular'; src: url('Fonts/NotoSansMath-Regular.ttf'); }
+@font-face { font-family: 'NotoSansMro Regular'; src: url('Fonts/NotoSansMro-Regular.ttf'); }
+@font-face { font-family: 'NotoSansNKoUnjoined Bold'; src: url('Fonts/NotoSansNKoUnjoined-Bold.ttf'); }
+@font-face { font-family: 'NotoSansNKoUnjoined Medium'; src: url('Fonts/NotoSansNKoUnjoined-Medium.ttf'); }
+@font-face { font-family: 'NotoSansNKoUnjoined Regular'; src: url('Fonts/NotoSansNKoUnjoined-Regular.ttf'); }
+@font-face { font-family: 'NotoSansNKoUnjoined SemiBold'; src: url('Fonts/NotoSansNKoUnjoined-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansNKoUnjoined Variable'; src: url('Fonts/NotoSansNKoUnjoined-VariableFont_wght.ttf'); }
+@font-face { font-family: 'NotoSansOldHungarian Regular'; src: url('Fonts/NotoSansOldHungarian-Regular.ttf'); }
+@font-face { font-family: 'NotoSansOldNorthArabian Regular'; src: url('Fonts/NotoSansOldNorthArabian-Regular.ttf'); }
+@font-face { font-family: 'NotoSansOldPersian Regular'; src: url('Fonts/NotoSansOldPersian-Regular.ttf'); }
+@font-face { font-family: 'NotoSansPauCinHau Regular'; src: url('Fonts/NotoSansPauCinHau-Regular.ttf'); }
+@font-face { font-family: 'NotoSansPhagsPa Regular'; src: url('Fonts/NotoSansPhagsPa-Regular.ttf'); }
+@font-face { font-family: 'NotoSansSamaritan Regular'; src: url('Fonts/NotoSansSamaritan-Regular.ttf'); }
+@font-face { font-family: 'NotoSansSignWriting Regular'; src: url('Fonts/NotoSansSignWriting-Regular.ttf'); }
+@font-face { font-family: 'NotoSansSunuwar Regular'; src: url('Fonts/NotoSansSunuwar-Regular.ttf'); }
+@font-face { font-family: 'NotoSansSymbols Black'; src: url('Fonts/NotoSansSymbols-Black.ttf'); }
+@font-face { font-family: 'NotoSansSymbols Bold'; src: url('Fonts/NotoSansSymbols-Bold.ttf'); }
+@font-face { font-family: 'NotoSansSymbols ExtraBold'; src: url('Fonts/NotoSansSymbols-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansSymbols ExtraLight'; src: url('Fonts/NotoSansSymbols-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansSymbols Light'; src: url('Fonts/NotoSansSymbols-Light.ttf'); }
+@font-face { font-family: 'NotoSansSymbols Medium'; src: url('Fonts/NotoSansSymbols-Medium.ttf'); }
+@font-face { font-family: 'NotoSansSymbols Regular'; src: url('Fonts/NotoSansSymbols-Regular.ttf'); }
+@font-face { font-family: 'NotoSansSymbols SemiBold'; src: url('Fonts/NotoSansSymbols-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansSymbols Thin'; src: url('Fonts/NotoSansSymbols-Thin.ttf'); }
+@font-face { font-family: 'NotoSansSymbols Variable'; src: url('Fonts/NotoSansSymbols-VariableFont_wght.ttf'); }
+@font-face { font-family: 'NotoSansSymbols2 Regular'; src: url('Fonts/NotoSansSymbols2-Regular.ttf'); }
+@font-face { font-family: 'NotoSansTamil Black'; src: url('Fonts/NotoSansTamil-Black.ttf'); }
+@font-face { font-family: 'NotoSansTamil Bold'; src: url('Fonts/NotoSansTamil-Bold.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraBold'; src: url('Fonts/NotoSansTamil-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraLight'; src: url('Fonts/NotoSansTamil-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansTamil Light'; src: url('Fonts/NotoSansTamil-Light.ttf'); }
+@font-face { font-family: 'NotoSansTamil Medium'; src: url('Fonts/NotoSansTamil-Medium.ttf'); }
+@font-face { font-family: 'NotoSansTamil Regular'; src: url('Fonts/NotoSansTamil-Regular.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiBold'; src: url('Fonts/NotoSansTamil-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansTamil Thin'; src: url('Fonts/NotoSansTamil-Thin.ttf'); }
+@font-face { font-family: 'NotoSansTamil Variable'; src: url('Fonts/NotoSansTamil-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed Black'; src: url('Fonts/NotoSansTamil_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed Bold'; src: url('Fonts/NotoSansTamil_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed ExtraBold'; src: url('Fonts/NotoSansTamil_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed ExtraLight'; src: url('Fonts/NotoSansTamil_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed Light'; src: url('Fonts/NotoSansTamil_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed Medium'; src: url('Fonts/NotoSansTamil_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed Regular'; src: url('Fonts/NotoSansTamil_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed SemiBold'; src: url('Fonts/NotoSansTamil_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansTamil Condensed Thin'; src: url('Fonts/NotoSansTamil_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed Black'; src: url('Fonts/NotoSansTamil_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed Bold'; src: url('Fonts/NotoSansTamil_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed ExtraBold'; src: url('Fonts/NotoSansTamil_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed ExtraLight'; src: url('Fonts/NotoSansTamil_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed Light'; src: url('Fonts/NotoSansTamil_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed Medium'; src: url('Fonts/NotoSansTamil_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed Regular'; src: url('Fonts/NotoSansTamil_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed SemiBold'; src: url('Fonts/NotoSansTamil_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansTamil ExtraCondensed Thin'; src: url('Fonts/NotoSansTamil_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed Black'; src: url('Fonts/NotoSansTamil_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed Bold'; src: url('Fonts/NotoSansTamil_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed ExtraBold'; src: url('Fonts/NotoSansTamil_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed ExtraLight'; src: url('Fonts/NotoSansTamil_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed Light'; src: url('Fonts/NotoSansTamil_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed Medium'; src: url('Fonts/NotoSansTamil_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed Regular'; src: url('Fonts/NotoSansTamil_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed SemiBold'; src: url('Fonts/NotoSansTamil_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansTamil SemiCondensed Thin'; src: url('Fonts/NotoSansTamil_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansThaana Black'; src: url('Fonts/NotoSansThaana-Black.ttf'); }
+@font-face { font-family: 'NotoSansThaana Bold'; src: url('Fonts/NotoSansThaana-Bold.ttf'); }
+@font-face { font-family: 'NotoSansThaana ExtraBold'; src: url('Fonts/NotoSansThaana-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansThaana ExtraLight'; src: url('Fonts/NotoSansThaana-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansThaana Light'; src: url('Fonts/NotoSansThaana-Light.ttf'); }
+@font-face { font-family: 'NotoSansThaana Medium'; src: url('Fonts/NotoSansThaana-Medium.ttf'); }
+@font-face { font-family: 'NotoSansThaana Regular'; src: url('Fonts/NotoSansThaana-Regular.ttf'); }
+@font-face { font-family: 'NotoSansThaana SemiBold'; src: url('Fonts/NotoSansThaana-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansThaana Thin'; src: url('Fonts/NotoSansThaana-Thin.ttf'); }
+@font-face { font-family: 'NotoSansThaana Variable'; src: url('Fonts/NotoSansThaana-VariableFont_wght.ttf'); }
+@font-face { font-family: 'NotoSansThai Black'; src: url('Fonts/NotoSansThai-Black.ttf'); }
+@font-face { font-family: 'NotoSansThai Bold'; src: url('Fonts/NotoSansThai-Bold.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraBold'; src: url('Fonts/NotoSansThai-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraLight'; src: url('Fonts/NotoSansThai-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansThai Light'; src: url('Fonts/NotoSansThai-Light.ttf'); }
+@font-face { font-family: 'NotoSansThai Medium'; src: url('Fonts/NotoSansThai-Medium.ttf'); }
+@font-face { font-family: 'NotoSansThai Regular'; src: url('Fonts/NotoSansThai-Regular.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiBold'; src: url('Fonts/NotoSansThai-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansThai Thin'; src: url('Fonts/NotoSansThai-Thin.ttf'); }
+@font-face { font-family: 'NotoSansThai Variable'; src: url('Fonts/NotoSansThai-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed Black'; src: url('Fonts/NotoSansThai_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed Bold'; src: url('Fonts/NotoSansThai_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed ExtraBold'; src: url('Fonts/NotoSansThai_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed ExtraLight'; src: url('Fonts/NotoSansThai_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed Light'; src: url('Fonts/NotoSansThai_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed Medium'; src: url('Fonts/NotoSansThai_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed Regular'; src: url('Fonts/NotoSansThai_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed SemiBold'; src: url('Fonts/NotoSansThai_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansThai Condensed Thin'; src: url('Fonts/NotoSansThai_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed Black'; src: url('Fonts/NotoSansThai_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed Bold'; src: url('Fonts/NotoSansThai_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed ExtraBold'; src: url('Fonts/NotoSansThai_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed ExtraLight'; src: url('Fonts/NotoSansThai_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed Light'; src: url('Fonts/NotoSansThai_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed Medium'; src: url('Fonts/NotoSansThai_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed Regular'; src: url('Fonts/NotoSansThai_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed SemiBold'; src: url('Fonts/NotoSansThai_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansThai ExtraCondensed Thin'; src: url('Fonts/NotoSansThai_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed Black'; src: url('Fonts/NotoSansThai_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed Bold'; src: url('Fonts/NotoSansThai_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed ExtraBold'; src: url('Fonts/NotoSansThai_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed ExtraLight'; src: url('Fonts/NotoSansThai_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed Light'; src: url('Fonts/NotoSansThai_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed Medium'; src: url('Fonts/NotoSansThai_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed Regular'; src: url('Fonts/NotoSansThai_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed SemiBold'; src: url('Fonts/NotoSansThai_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSansThai SemiCondensed Thin'; src: url('Fonts/NotoSansThai_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSansVai Regular'; src: url('Fonts/NotoSansVai-Regular.ttf'); }
+@font-face { font-family: 'NotoSansWancho Regular'; src: url('Fonts/NotoSansWancho-Regular.ttf'); }
+@font-face { font-family: 'NotoSansWarangCiti Regular'; src: url('Fonts/NotoSansWarangCiti-Regular.ttf'); }
+@font-face { font-family: 'NotoSansYi Regular'; src: url('Fonts/NotoSansYi-Regular.ttf'); }
+@font-face { font-family: 'NotoSans Condensed Black'; src: url('Fonts/NotoSans_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSans Condensed BlackItalic'; src: url('Fonts/NotoSans_Condensed-BlackItalic.ttf'); }
+@font-face { font-family: 'NotoSans Condensed Bold'; src: url('Fonts/NotoSans_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSans Condensed BoldItalic'; src: url('Fonts/NotoSans_Condensed-BoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans Condensed ExtraBold'; src: url('Fonts/NotoSans_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSans Condensed ExtraBoldItalic'; src: url('Fonts/NotoSans_Condensed-ExtraBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans Condensed ExtraLight'; src: url('Fonts/NotoSans_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSans Condensed ExtraLightItalic'; src: url('Fonts/NotoSans_Condensed-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'NotoSans Condensed Italic'; src: url('Fonts/NotoSans_Condensed-Italic.ttf'); }
+@font-face { font-family: 'NotoSans Condensed Light'; src: url('Fonts/NotoSans_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSans Condensed LightItalic'; src: url('Fonts/NotoSans_Condensed-LightItalic.ttf'); }
+@font-face { font-family: 'NotoSans Condensed Medium'; src: url('Fonts/NotoSans_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSans Condensed MediumItalic'; src: url('Fonts/NotoSans_Condensed-MediumItalic.ttf'); }
+@font-face { font-family: 'NotoSans Condensed Regular'; src: url('Fonts/NotoSans_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSans Condensed SemiBold'; src: url('Fonts/NotoSans_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSans Condensed SemiBoldItalic'; src: url('Fonts/NotoSans_Condensed-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans Condensed Thin'; src: url('Fonts/NotoSans_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSans Condensed ThinItalic'; src: url('Fonts/NotoSans_Condensed-ThinItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed Black'; src: url('Fonts/NotoSans_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed BlackItalic'; src: url('Fonts/NotoSans_ExtraCondensed-BlackItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed Bold'; src: url('Fonts/NotoSans_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed BoldItalic'; src: url('Fonts/NotoSans_ExtraCondensed-BoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed ExtraBold'; src: url('Fonts/NotoSans_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed ExtraBoldItalic'; src: url('Fonts/NotoSans_ExtraCondensed-ExtraBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed ExtraLight'; src: url('Fonts/NotoSans_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed ExtraLightItalic'; src: url('Fonts/NotoSans_ExtraCondensed-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed Italic'; src: url('Fonts/NotoSans_ExtraCondensed-Italic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed Light'; src: url('Fonts/NotoSans_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed LightItalic'; src: url('Fonts/NotoSans_ExtraCondensed-LightItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed Medium'; src: url('Fonts/NotoSans_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed MediumItalic'; src: url('Fonts/NotoSans_ExtraCondensed-MediumItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed Regular'; src: url('Fonts/NotoSans_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed SemiBold'; src: url('Fonts/NotoSans_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed SemiBoldItalic'; src: url('Fonts/NotoSans_ExtraCondensed-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed Thin'; src: url('Fonts/NotoSans_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSans ExtraCondensed ThinItalic'; src: url('Fonts/NotoSans_ExtraCondensed-ThinItalic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed Black'; src: url('Fonts/NotoSans_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed BlackItalic'; src: url('Fonts/NotoSans_SemiCondensed-BlackItalic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed Bold'; src: url('Fonts/NotoSans_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed BoldItalic'; src: url('Fonts/NotoSans_SemiCondensed-BoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed ExtraBold'; src: url('Fonts/NotoSans_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed ExtraBoldItalic'; src: url('Fonts/NotoSans_SemiCondensed-ExtraBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed ExtraLight'; src: url('Fonts/NotoSans_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed ExtraLightItalic'; src: url('Fonts/NotoSans_SemiCondensed-ExtraLightItalic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed Italic'; src: url('Fonts/NotoSans_SemiCondensed-Italic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed Light'; src: url('Fonts/NotoSans_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed LightItalic'; src: url('Fonts/NotoSans_SemiCondensed-LightItalic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed Medium'; src: url('Fonts/NotoSans_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed MediumItalic'; src: url('Fonts/NotoSans_SemiCondensed-MediumItalic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed Regular'; src: url('Fonts/NotoSans_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed SemiBold'; src: url('Fonts/NotoSans_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed SemiBoldItalic'; src: url('Fonts/NotoSans_SemiCondensed-SemiBoldItalic.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed Thin'; src: url('Fonts/NotoSans_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSans SemiCondensed ThinItalic'; src: url('Fonts/NotoSans_SemiCondensed-ThinItalic.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Black'; src: url('Fonts/NotoSerifDevanagari-Black.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Bold'; src: url('Fonts/NotoSerifDevanagari-Bold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraBold'; src: url('Fonts/NotoSerifDevanagari-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraLight'; src: url('Fonts/NotoSerifDevanagari-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Light'; src: url('Fonts/NotoSerifDevanagari-Light.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Medium'; src: url('Fonts/NotoSerifDevanagari-Medium.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Regular'; src: url('Fonts/NotoSerifDevanagari-Regular.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiBold'; src: url('Fonts/NotoSerifDevanagari-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Thin'; src: url('Fonts/NotoSerifDevanagari-Thin.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Variable'; src: url('Fonts/NotoSerifDevanagari-VariableFont_wdth,wght.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed Black'; src: url('Fonts/NotoSerifDevanagari_Condensed-Black.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed Bold'; src: url('Fonts/NotoSerifDevanagari_Condensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed ExtraBold'; src: url('Fonts/NotoSerifDevanagari_Condensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed ExtraLight'; src: url('Fonts/NotoSerifDevanagari_Condensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed Light'; src: url('Fonts/NotoSerifDevanagari_Condensed-Light.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed Medium'; src: url('Fonts/NotoSerifDevanagari_Condensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed Regular'; src: url('Fonts/NotoSerifDevanagari_Condensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed SemiBold'; src: url('Fonts/NotoSerifDevanagari_Condensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari Condensed Thin'; src: url('Fonts/NotoSerifDevanagari_Condensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed Black'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed Bold'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed ExtraBold'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed ExtraLight'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed Light'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed Medium'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed Regular'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed SemiBold'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari ExtraCondensed Thin'; src: url('Fonts/NotoSerifDevanagari_ExtraCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed Black'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-Black.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed Bold'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-Bold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed ExtraBold'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed ExtraLight'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed Light'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-Light.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed Medium'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-Medium.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed Regular'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-Regular.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed SemiBold'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSerifDevanagari SemiCondensed Thin'; src: url('Fonts/NotoSerifDevanagari_SemiCondensed-Thin.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana Black'; src: url('Fonts/NotoSerifHentaigana-Black.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana Bold'; src: url('Fonts/NotoSerifHentaigana-Bold.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana ExtraBold'; src: url('Fonts/NotoSerifHentaigana-ExtraBold.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana ExtraLight'; src: url('Fonts/NotoSerifHentaigana-ExtraLight.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana Light'; src: url('Fonts/NotoSerifHentaigana-Light.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana Medium'; src: url('Fonts/NotoSerifHentaigana-Medium.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana Regular'; src: url('Fonts/NotoSerifHentaigana-Regular.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana SemiBold'; src: url('Fonts/NotoSerifHentaigana-SemiBold.ttf'); }
+@font-face { font-family: 'NotoSerifHentaigana Variable'; src: url('Fonts/NotoSerifHentaigana-VariableFont_wght.ttf'); }
+@font-face { font-family: 'NotoTraditionalNushu Bold'; src: url('Fonts/NotoTraditionalNushu-Bold.ttf'); }
+@font-face { font-family: 'NotoTraditionalNushu Light'; src: url('Fonts/NotoTraditionalNushu-Light.ttf'); }
+@font-face { font-family: 'NotoTraditionalNushu Medium'; src: url('Fonts/NotoTraditionalNushu-Medium.ttf'); }
+@font-face { font-family: 'NotoTraditionalNushu Regular'; src: url('Fonts/NotoTraditionalNushu-Regular.ttf'); }
+@font-face { font-family: 'NotoTraditionalNushu SemiBold'; src: url('Fonts/NotoTraditionalNushu-SemiBold.ttf'); }
+@font-face { font-family: 'NotoTraditionalNushu Variable'; src: url('Fonts/NotoTraditionalNushu-VariableFont_wght.ttf'); }
+@font-face { font-family: 'PixelifySans Bold'; src: url('Fonts/PixelifySans-Bold.ttf'); }
+@font-face { font-family: 'PixelifySans Medium'; src: url('Fonts/PixelifySans-Medium.ttf'); }
+@font-face { font-family: 'PixelifySans Regular'; src: url('Fonts/PixelifySans-Regular.ttf'); }
+@font-face { font-family: 'PixelifySans SemiBold'; src: url('Fonts/PixelifySans-SemiBold.ttf'); }
+@font-face { font-family: 'PixelifySans Variable'; src: url('Fonts/PixelifySans-VariableFont_wght.ttf'); }
+@font-face { font-family: 'PressStart2P Regular'; src: url('Fonts/PressStart2P-Regular.ttf'); }
+@font-face { font-family: 'Rubik80sFade Regular'; src: url('Fonts/Rubik80sFade-Regular.ttf'); }
+@font-face { font-family: 'RubikGlitch Regular'; src: url('Fonts/RubikGlitch-Regular.ttf'); }
+@font-face { font-family: 'RubikIso Regular'; src: url('Fonts/RubikIso-Regular.ttf'); }
+@font-face { font-family: 'Sarpanch Black'; src: url('Fonts/Sarpanch-Black.ttf'); }
+@font-face { font-family: 'Sarpanch Bold'; src: url('Fonts/Sarpanch-Bold.ttf'); }
+@font-face { font-family: 'Sarpanch ExtraBold'; src: url('Fonts/Sarpanch-ExtraBold.ttf'); }
+@font-face { font-family: 'Sarpanch Medium'; src: url('Fonts/Sarpanch-Medium.ttf'); }
+@font-face { font-family: 'Sarpanch Regular'; src: url('Fonts/Sarpanch-Regular.ttf'); }
+@font-face { font-family: 'Sarpanch SemiBold'; src: url('Fonts/Sarpanch-SemiBold.ttf'); }
+@font-face { font-family: 'Silkscreen Bold'; src: url('Fonts/Silkscreen-Bold.ttf'); }
+@font-face { font-family: 'Silkscreen Regular'; src: url('Fonts/Silkscreen-Regular.ttf'); }
+@font-face { font-family: 'Stick Regular'; src: url('Fonts/Stick-Regular.ttf'); }
+@font-face { font-family: 'TrainOne Regular'; src: url('Fonts/TrainOne-Regular.ttf'); }
+@font-face { font-family: 'TsukimiRounded Bold'; src: url('Fonts/TsukimiRounded-Bold.ttf'); }
+@font-face { font-family: 'TsukimiRounded Light'; src: url('Fonts/TsukimiRounded-Light.ttf'); }
+@font-face { font-family: 'TsukimiRounded Medium'; src: url('Fonts/TsukimiRounded-Medium.ttf'); }
+@font-face { font-family: 'TsukimiRounded Regular'; src: url('Fonts/TsukimiRounded-Regular.ttf'); }
+@font-face { font-family: 'TsukimiRounded SemiBold'; src: url('Fonts/TsukimiRounded-SemiBold.ttf'); }
+@font-face { font-family: 'WDXLLubrifontJPN Regular'; src: url('Fonts/WDXLLubrifontJPN-Regular.ttf'); }
+@font-face { font-family: 'WDXLLubrifontTC Regular'; src: url('Fonts/WDXLLubrifontTC-Regular.ttf'); }
+@font-face { font-family: 'ZCOOLQingKeHuangYou Regular'; src: url('Fonts/ZCOOLQingKeHuangYou-Regular.ttf'); }
+/* FONT FACES END */
+
+body {
+    background-color: #1a1a1a; /* Very dark grey */
+    color: #e0e0e0; /* Light grey text */
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    border: 1px solid #ff00ff; /* Magenta border */
+    padding: 20px;
+    box-shadow: 0 0 15px #ff00ff, 0 0 25px #ff00ff inset;
+}
+
+h1, label {
+    color: #ff00ff; /* Magenta text */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: #2b2b2b; /* Dark grey */
+    color: #00ff00; /* Lime green text */
+    border: 1px solid #4d4d4d;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+#output-text {
+    color: #00ffff; /* Cyan text for output */
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+button {
+    background-color: #ff00ff; /* Magenta */
+    color: #1a1a1a; /* Dark text */
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff33ff;
+    box-shadow: 0 0 10px #ff33ff;
+}
+
+input[type="range"] {
+    width: 50%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: #2b2b2b;
+    height: 8px;
+    border-radius: 4px;
+    border: 1px solid #4d4d4d;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    margin-top: -5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #00ffff;
+    border: 1px solid #00ffff;
+    box-shadow: 0 0 5px #00ffff;
+}
+
+select {
+    background-color: #2b2b2b;
+    color: #ff00ff;
+    border: 1px solid #ff00ff;
+    border-radius: 4px;
+    padding: 5px;
+    min-width: 150px;
+}
